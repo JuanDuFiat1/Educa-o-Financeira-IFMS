@@ -1,0 +1,165 @@
+@font-face{
+    font-family: inter;
+    src: url(../fonts/Inter-Bold.ttf) format('opentype');
+
+    font-family: bangers;
+    src: url(../fonts/Bangers-Regular.ttf) format('opentype');
+}
+*{
+    margin: 0;
+}
+#pai{
+    font-family: inter;
+}
+#barradetarefas{
+    background-color: #2B9F3F;
+    height: 17vh;
+    width: 100%;
+    margin-bottom: 25px;
+}
+#logodoif{
+    margin-top: 15px;
+    margin-left: 170px;
+    height: 13vh;
+    width: 90px;
+}
+#menu{
+    height: 100vh;
+    margin-left: 1500px;
+    margin-top: -20px;
+}
+button{
+    border: solid; color: white;
+    border-top: 0;
+    border-bottom: 0;
+    background: 100px;
+}
+#meio{
+    margin-left: 50px;
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+}
+#maissobre{
+    text-align: center;
+}
+#rodapé{
+    background-color: #2B9F3F;
+    height: 11vh;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    color: white;   
+}
+#fontB{
+    text-align: center;
+    font-family: bangers;
+}
+#q1{
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 1000px;
+}
+#q2{
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 1000px;
+}
+#q3{
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 1000px;
+}
+#q4{
+    margin-bottom: 592px;
+}
+#quadrinhos2{
+    margin-top: -1000px;
+}
+#q5{
+    height: 400px;
+    width: 400px;
+    margin-right: 10px;
+}
+#q6{
+    height: 43vh;
+    width: 43.9%;
+    margin-right: 10px;
+}
+#q7{
+    height: 400px;
+    width: 650px;
+    margin-right: 10px;
+}
+#q8{
+    height: 400px;
+    width: 700px;
+    margin-right: 10px;
+}
+#q9{
+    height: 400px;
+    width: 500px;
+    margin-right: 10px; 
+}
+#q10{
+    height: 47vh;
+    width: 38%;
+}
+#rodapéHQ{
+    background-color: #2B9F3F;
+    height: 11vh;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+@media (max-width: 760px) {
+    body{
+        margin: 0;
+    }
+    #barradetarefas{
+        height: 25vh;
+    }
+    #logodoif{
+        margin-left: 350px;
+        height: 15vh;
+        margin-bottom: 50px;
+    }
+    #menu{
+        margin-left: 290px;
+    }
+    #rodapé{
+        height: 15vh;
+    }
+    #quadrinhos{
+        margin-top: 50px;
+        margin-left: 145px;
+    }
+    #q1, #q2, #q3{
+        margin-bottom: 0;
+    }
+    #q4{
+        margin-left: -30px;
+    }
+    #q5{
+        margin-top: 410px;
+    }
+    #q6, #q7, #q9, #q10{
+        width: 100%;
+        margin-left: -75px;
+    }
+    #q8{
+        height: 40vh;
+        width: 100%;
+        margin-left: -75px; 
+    }
+    #rodapéHQ{
+        height: 15vh;
+    }
+
+}
